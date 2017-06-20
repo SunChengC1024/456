@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta charset="utf-8"/>
+	<script type="text/javascript">
+	function duihua()
+	{
+		alert("您还没有注册！请先注册！")
+	}
+	function zhuce()
+	{
+		window.open("zhuce.html")
+	}
+	</script>
+</head>
+
+<body>
+	<div style="position:relative">
+	<img src="images/timg.jpg" height="602px" width="100%" style="position:absolute">
+
+	<div style="position:absolute; left:500px; top:150px; width:400px; height:300px">
+	<form>
+	<table bordercolor="#90EE90" background="jpg/timg.jpg" style="position:absolute;center">
+		<tr>
+			<td colspan="2" align="center" height="40px">用户登录</td>
+		</tr>
+		<tr>
+			<td width="89px">&nbsp用户名：</td>
+			<td width="239px" height="40px">&nbsp
+				<input type="text" name="usename"/>
+			</td>
+		</tr>
+		<tr>
+			<td height="40px">&nbsp密码：</td>
+			<td>&nbsp
+				<input type="password" name="password"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" height="40px">
+				<input type="button" value="登录" onclick="duihua()"/>
+				<input type="button" value="注册" onclick="zhuce()" name="but"/></a>
+			</td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	</div>
+</body>
+</html>

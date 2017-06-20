@@ -1,0 +1,241 @@
+*{
+	align: center;
+	font: 12px '宋体';
+	padding: 0px;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background-image: url(../images/bg2.png);
+	background-repeat: repeat-x;
+	margin: 0 auto;
+}
+.banner{
+	margin: 0px auto;
+	height: 100px;
+}
+.nav{
+	width: 640px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 110px;
+}
+.search{
+	height: 20px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.search input{
+	background-image: url(../images/anniu.jpg);
+	border: solid #556B2F 1px;
+	border-radius:3px;
+	color: #556B2F;
+	font-size: 1.2em;
+}
+#kuang{
+	background-image: url(../images/annu.jpg);
+	background-color: #DCDCDC;
+	border: solid #556B2F 1px;
+	border-radius:2px;
+	color: white;
+}
+#denglu{
+	margin-top: 10px;
+	margin-left: 127px;
+}
+.daohang{
+	float: left;
+	margin-top: 45px;
+}
+.daohang a{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 25px;
+	color: black;
+}
+.nav a:hover{
+	color: #8470FF;
+}
+
+.flowpicpure{
+	width: 1120px; height: 570px;
+	margin: 30px auto;
+	background-color: #F5F5DC; 
+    border-radius:5px;
+}
+ #frame{
+ 	position: absolute; 
+    width: 1100px;  
+    height: 550px;
+    overflow: hidden; 
+    border-radius:5px;
+    border: solid white 1px;
+    margin: 10px;
+}  
+#photos img{  
+float: left;  
+width:1100px;  
+height:550px;  
+}  
+#photos{
+	position: absolute;z-index:9px;  
+    width: 5500px; 
+}  
+.play{  
+    animation: ma 15s ease-out infinite alternate;
+}  
+@keyframes ma{
+    0%,20% {margin-left: 0px;}  
+    25%,40% {margin-left: -1100px;}  
+	45%,60% {margin-left: -2200px;}  
+    65%,80% {margin-left: -3300px;}  
+    85%,100% {margin-left: -4400px;}  
+}
+
+.maincontent{
+	width: 1120px; height: 830px;
+	background-color: #E6E6FA;
+	border: 1px white solid;
+    border-radius:5px;
+    margin-top: 40px;
+    clear: both;
+}
+
+.list_picture{
+	width:1100px; height: 320px;
+	margin: 20px auto;
+	margin-top: -0.3em;
+	background-color: #FAF0E6;
+	border: 1px white solid;
+	border-radius:5px;
+	padding-top: 10px;
+}
+.bigwords{
+	margin: 20px;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+.smallwords{
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #808080;
+}
+.picture{
+	width: 1000px;height: 170px;
+	margin: 0px auto;
+}
+.picture_con1{
+	width: 220px; height: 132px;
+	float: left;
+	margin: 10px 13px;
+	text-align: center;
+	background-image: url(../images/p1.jpg);
+	border: solid white 2px;
+	border-radius:100px;
+}
+.picture_con2{
+	width: 220px; height: 132px;
+	float: left;
+	margin: 10px 13px;
+	text-align: center;
+	background-image: url(../images/p2.jpg);
+	border: solid white 2px;
+	border-radius:100px;
+}
+.picture_con3{
+	width: 220px; height: 132px;
+	float: left;
+	margin: 10px 13px;
+	text-align: center;
+	background-image: url(../images/p3.jpg);
+	border: solid white 2px;
+	border-radius:100px;
+}
+.picture_con4{
+	width: 220px; height: 132px;
+	float: left;
+	margin: 10px 13px;
+	text-align: center;
+	background-image: url(../images/p4.jpg);
+	border: solid white 2px;
+	border-radius:100px;
+}
+.picture_con1 img,.picture_con2 img,.picture_con3 img,.picture_con4 img{
+	border: solid white 3px;
+	border-radius:80px;
+	opacity: 0;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+.picture_con1 a,.picture_con2 a,.picture_con3 a,.picture_con4 a{
+	color: #556B2F;
+	font-size: 1.1em;
+}
+.picture_con1 img:hover,.picture_con2 img:hover,.picture_con3 img:hover,.picture_con4 img:hover{
+	opacity: 0.8;
+}
+.list_video{
+	width:1100px; height: 465px;
+	margin: 0px auto;
+	margin-top: 40px;
+	background-color: #F5F5DC;
+	border: 1px white solid;
+	border-radius:5px;
+}
+.video{
+	width: 1000px;
+	margin: 0px auto;
+}
+.video1,.video2{
+	width: 460px; height: 315px;
+	float: left;
+	margin: 18px;
+	background-color: #F0F8FF;
+	border: solid 1px white;
+	border-radius: 5px;
+}
+.video1 video,.video2 video{
+	width: 440px; height: 260px;
+	margin: 10px;
+	margin-top: 5px;
+}
+.video1 video:hover,.video2 video:hover{
+	opacity: 0.8;
+}
+.video1 p,.video2 p{
+	text-align: center;
+	color: #556B2F;
+	font-size: 1.1em;
+}
+.footer_border{
+	width: 1120px;
+	margin: 30px auto;
+}
+.footer_border div{
+	text-align: center;
+}
+.link{
+	width: 500px;
+	border-bottom: solid 3px #778899;
+	margin-top: 60px;
+	padding-bottom: 20px;
+}
+.link a{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #20B2AA;
+	margin: 0px 10px;
+}
+.banquan{
+	margin-top: 20px;
+	color: #708090;
+}
