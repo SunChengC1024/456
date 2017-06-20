@@ -216,9 +216,14 @@ height:550px;
 	color: #556B2F;
 	font-size: 1.1em;
 }
+.footer{
+	clear: both;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
 .footer_border{
 	width: 1120px;
-	margin: 30px auto;
+	margin: 10px auto;
 }
 .footer_border div{
 	text-align: center;

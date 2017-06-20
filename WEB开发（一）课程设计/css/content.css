@@ -153,19 +153,20 @@
 }
 .comment_title p{
 	display: block;
+	width: 700px;
 	font-size: 3em;
 	float: left;
-	margin: 50px;
+	margin: 40px;
+	margin-bottom: 0px;
 }
 .comment_title a{
 	font-size: 1.5em;
 	display: block;
-	float: left;
-	margin-top: 90px;
-	margin-left: 400px;
+	float: right;
 	background-image: url(../images/anniu.jpg);
 	border: solid #556B2F 1px;
 	border-radius:3px;
+	margin-bottom: 20px;
 }
 .comment_content{
 	width: 730px; height: 120px;
