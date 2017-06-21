@@ -208,7 +208,7 @@
 	color: #D3D3D3;
 }
 .comment_write{
-	width: 730px; height: 240px;
+	width: 730px; height: 250px;
 	margin: 10px;
 	border: dashed 1px #D19275;
 	border-radius: 5px;
@@ -219,6 +219,9 @@
 .comment_write_title a{
 	font-size: 1.8em;
 	color: #8B0000;
+}
+.comment_write_content{
+	width: 730px;
 }
 .comment_write textarea{
 	margin-left: 55px;

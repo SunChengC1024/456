@@ -100,7 +100,7 @@ height:550px;
 }
 
 .maincontent{
-	width: 1120px; height: 830px;
+	width: 1120px; height: 870px;
 	background-color: #E6E6FA;
 	border: 1px white solid;
     border-radius:5px;
@@ -184,7 +184,7 @@ height:550px;
 	opacity: 0.8;
 }
 .list_video{
-	width:1100px; height: 465px;
+	width:1100px; height: 505px;
 	margin: 0px auto;
 	margin-top: 40px;
 	background-color: #F5F5DC;
