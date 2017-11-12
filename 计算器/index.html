@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--姓名：孙程程-->
+<!--学号：2016011442-->
+<!--日期：2017/11/12-->
+<html>
+<head>
+	<title>计算器</title>
+	<meta chaset="utf-8"/>
+	<style type="text/css">
+		.butt{
+			width: 50px;
+			height: 50px;
+			border-radius: 5px;
+			font-size: 1.5em;
+		}
+		#result{
+			text-align: right;
+		}
+		.content{
+			font-size: 0.8em;
+			color: gray;
+			text-align: center;
+		}
+	</style>
+	<script src="js.js" ></script>
+</head>
+<body>
+	<table border="2px" cellpadding="20px" align="center">
+		<tr>
+			<td colspan="3" id="result" ></td>
+			<td><input type="button" value="C" onclick="clearData()" class="butt" /></td>
+		</tr>
+		<tr>
+			<!--this.id的使用是百度得到的-->
+			<td><input type="button" value="1" id="1" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="2" id="2" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="3" id="3" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="+" id="+" onclick="showData(this.id)" class="butt" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" id="4" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="5" id="5" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="6" id="6" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="-" id="-" onclick="showData(this.id)" class="butt" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" id="7" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="8" id="8" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="9" id="9" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="*" id="*" onclick="showData(this.id)" class="butt" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="0" id="0" onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="." id="." onclick="showData(this.id)" class="butt" /></td>
+			<td><input type="button" value="=" onclick="calculate()" class="butt" /></td>
+			<td><input type="button" value="/" id="/" onclick="showData(this.id)" class="butt" /></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="content">简单计算器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者：孙程程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017/11/12</td>
+		</tr>
+	</table>
+</body>
+</html>
