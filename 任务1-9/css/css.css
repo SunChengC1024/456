@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.top{
+	width: 100%;
+	height: 162px;
+	background: url(../images/body_bg.gif);
+	background-repeat: repeat-x;
+	z-index: 1000;
+}
+.one{
+	width: 1000px;
+	height: 102px;
+	margin: 0 auto;
+	position: relative;
+	border-top: 5px solid #284c7e;
+	border-bottom: 1px solid #d6d6d6;
+}
+.one>img{
+	position: absolute;
+	left: 0px;
+	top: 13px;
+}
+.search{
+	position: absolute;
+	right: 20px;
+	top: 18px;
+	z-index: 99999999;
+}
+.search>div{
+	text-align: right;
+}
+.search>div>a{
+	color: #fc8200;
+	text-decoration: none;
+	font-size: 12px;
+}
+#text{
+	width: 250px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 5px;
+}
+#nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+	z-index: 99999999;
+}
+#nav>li{
+	width: 110px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 55px;
+	cursor: pointer;
+}
+#nav>li:hover{
+	background: #0e6eb8;
+}
+#nav>li:hover>a{
+	color: white;
+}
+#nav>li:hover>ul{
+	display: block;
+}
+#nav>li>a{
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	font-size: 15px;
+}
+#nav>li ul{
+	width: 145px;
+	background: #0e6eb8;
+	margin-top: -6px;
+	display: none;
+	z-index: 99999999;
+}
+#nav>li ul li{
+	width: 145px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	padding-left: 25px;
+	z-index: 99999999;
+}
+#nav>li ul li:hover{
+	width: 120px;
+	background: #00aded;
+}
+#nav>li ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	z-index: 99999999;
+}
+.middle{
+	width: 100%;
+	height: 400px;
+	background-color: #f7f7f7;
+	z-index: 0;
+}
+.wrap{
+	width: 1200px;
+	height: 397px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+.span{
+	width: 1002px;
+	height: 73px;
+	background: url(../images/3.png);
+	position: absolute;
+	bottom: 0;
+	left: 99px;
+}
+.span>span{
+	width: 50px;
+	height: 73px;
+	color: black;
+	line-height: 73px;
+	font-size: 2.2em;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+.span>span:hover{
+	color: white;
+}
+#next{
+	float: right;
+}
+.wrap a{
+	display: none;
+}
