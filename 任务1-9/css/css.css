@@ -1,6 +1,9 @@
 *{
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+}
+body{
+	margin: 0 auto;
 }
 ul li{
 	list-style: none;
@@ -50,7 +53,8 @@ ul li{
 	height: 50px;
 	margin: 0 auto;
 	margin-top: 5px;
-	z-index: 99999999;
+	position: relative;
+	z-index: 1;
 }
 #nav>li{
 	width: 110px;
@@ -66,9 +70,6 @@ ul li{
 #nav>li:hover>a{
 	color: white;
 }
-#nav>li:hover>ul{
-	display: block;
-}
 #nav>li>a{
 	text-decoration: none;
 	color: #333333;
@@ -80,7 +81,9 @@ ul li{
 	background: #0e6eb8;
 	margin-top: -6px;
 	display: none;
-	z-index: 99999999;
+}
+#nav>li:hover>ul{
+	display: block;
 }
 #nav>li ul li{
 	width: 145px;
@@ -88,7 +91,6 @@ ul li{
 	line-height: 50px;
 	text-align: left;
 	padding-left: 25px;
-	z-index: 99999999;
 }
 #nav>li ul li:hover{
 	width: 120px;
@@ -96,15 +98,15 @@ ul li{
 }
 #nav>li ul li a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
 	color: white;
-	z-index: 99999999;
+	font-weight: 300;
 }
 .middle{
-	width: 100%;
+	margin: 0 auto;
 	height: 400px;
 	background-color: #f7f7f7;
-	z-index: 0;
+	position: relative;
 }
 .wrap{
 	width: 1200px;
@@ -113,6 +115,7 @@ ul li{
 	position: relative;
 	overflow: hidden;
 	z-index: 0;
+	clear: both;
 }
 .span{
 	width: 1002px;
