@@ -1,0 +1,259 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#wrap{
+	width: 678px;
+	height: 615px;
+	margin: 10px auto;
+	border: 1px solid #000; 
+	background-color: #f8f7f4;
+}
+/*顶部样式*/
+.header{
+	height: 50px;
+}
+.header>span{
+	float: left;
+	margin: 20px 0 0 12px;
+	line-height: 30px;
+}
+.headImg{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: url(../img/head.jpg) center center;
+	background-size: cover;
+}
+/*导航样式*/
+.nav{
+	height: 40px;
+	line-height: 37px;
+	border-bottom: 1px solid #e2e1df;
+}
+.nav>li{
+	float: left;
+	margin: 0 8px;
+	padding: 0 4px;
+	cursor: default;
+	color: #767676;
+}
+.nav>li:last-child:after{
+	content: "▼";
+	font-size: 10px;
+	margin-left: 5px;
+}
+.nav>li:hover{
+	color: #000;
+}
+.nav>.active{
+	color: #000;
+	border-bottom: 3px solid #009bdb;
+}
+/*底部主体样式*/
+.footer>div{
+	float: left;
+}
+.notice{
+	width: 200px;
+	height: 525px;
+	border-left: 1px solid #e2e1df;
+}
+/*消息框样式*/
+.talk{
+	width: 476px;
+}
+.talkMsg{
+	width: 476px;
+	height: 400px;
+	overflow-y: auto;
+	border-bottom: 1px solid #e2e1df;
+}
+.time{
+	text-align: center;
+	color: #808080;
+	font-size: 10px;
+	line-height: 30px;
+}
+.talkInp{
+	height: 124px;
+}
+.myHead{
+	float: right;
+	margin-top: 5px;
+	margin-right: 12px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: url(../img/myHead.jpg) center center;
+	background-size: cover;
+}
+.content{
+	float: right;
+}
+.conText{
+	padding: 10px;
+	max-width: 380px;
+	line-height: 22px;
+	border-radius: 8px;
+	margin-right: 10px;
+	font-size: 12px;
+	float: left;
+	background-color: #dfdddb;
+	word-wrap:break-word; 
+}
+.area{
+	width: 456px;
+	padding: 5px 10px;
+	height: 50px;
+	resize: none;
+	outline: none;
+	border: none;
+	background-color: #f8f7f4;
+}
+.btn{
+	float: right;
+}
+.btn li{
+	font-weight: bold;
+	cursor: default;
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 16px;
+	margin-right: 12px;
+	border-radius: 4px;
+	font-size: 12px;
+	background-color: #dbd1be;
+}
+.send{
+	position: relative;
+}
+.send:after{
+	content: "▼";
+	color: #6e695f;
+	margin-left: 15px;
+}
+.warning{
+	width: 150px;
+	height: 50px;
+	border: 1px solid lightblue;
+	border-radius: 8px;
+	padding: 0 5px;
+	position: absolute;
+	left: -70px;
+	top: -55px;
+	display: none;
+}
+#right{
+	width: 142px;
+	height: 195px;
+	position: absolute;
+	z-index: 999;
+	background: #fefefe;
+	box-shadow:0px 0px 3px 3px #b2aeae;
+}
+#right .pu{
+	width: 110px;
+	height: 24px;
+	list-style-position: inside;
+	background-image: url(../img/list.gif);
+	background-repeat: no-repeat;
+	padding-left: 32px;
+}
+#right li:hover{
+	width: 110px;
+	background-color: #009bdb;
+}
+#right li a{
+	text-decoration: none;
+	color: #001423;
+	font-size: 12px;
+}
+#repead{
+	background-image: url(../img/list1.gif);
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 24px;
+	list-style-position: inside;
+	padding-left: 32px;
+	border-top: #eceded solid 1px;
+}
+#add{
+	background-image: url(../img/list2.gif);
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 24px;
+	list-style-position: inside;
+	padding-left: 32px;
+	border-bottom: #eceded solid 1px;
+}
+#use{
+	background-image: url(../img/list3.gif);
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 24px;
+	list-style-position: inside;
+	padding-left: 32px;
+}
+#set{
+	border-bottom: #eceded solid 1px;
+}
+
+#banner li{
+	float: left;
+}
+#face{
+	width: 30px;
+	height: 24px;
+}
+#fac{
+	width: 30px;
+	height: 24px;
+}
+#small{
+	width: 196px;
+	height: 124px;
+	box-shadow:0px 0px 2px 2px #b2aeae;
+	position: relative;
+	top: -158px;
+	right: -3px;
+	background-color: white;
+	display: none;
+}
+#small table td{
+	width: 39px;
+	height: 38px;
+	text-align: center;
+}
+#small table td:hover{
+	background-color: #cccccc;
+	border-radius: 2px;
+}
+#big{
+	width: 458px;
+	height: 296px;
+	box-shadow:0px 0px 2px 2px #b2aeae;
+	position: relative;
+	top: -329px;
+	right: 27px;
+	background-color: white;
+	display: none;
+}
+#big table td{
+	width: 38px;
+	height: 34px;
+	text-align: center;
+}
+#big table td:hover{
+	background-color: #cccccc;
+	border-radius: 2px;
